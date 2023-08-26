@@ -1,0 +1,71 @@
+/* Default styles */
+
+/* Add your existing CSS code here */
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px */
+    
+    .mainheader {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .logoimg {
+      margin-right: auto;
+    }
+  
+    .location,
+    .searchbar,
+    .account,
+    .returns,
+    .cart {
+      display: none;
+    }
+  
+    .subheader {
+      justify-content: center;
+    }
+  
+    .part1 {
+      flex-wrap: wrap;
+    }
+  
+    .part2 {
+      display: none;
+    }
+  
+    .hero,
+    .sechero,
+    .thhero {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .shopsection {
+      padding: 0 10px;
+    }
+  
+    .row1 {
+      flex-wrap: wrap;
+      justify-content: center;
+      height: auto;
+    }
+  
+    .box {
+      margin: 20px 10px;
+    }
+  }
+  
+  /* Additional media queries for other screen sizes */
+  
+  @media screen and (max-width: 480px) {
+    /* Styles for screens up to 480px */
+    
+    .logoimg {
+      margin-left: auto;
+    }
+  }
+  
